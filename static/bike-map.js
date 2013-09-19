@@ -432,7 +432,7 @@ var fiveBikes = L.esri.featureLayer("http://maps.cityofboston.gov/ArcGIS/rest/se
 });
 setTimeout(function(){
   if(!isIE() || isIE() > 8){
-    fiveBikes.addTo(map);
+    //fiveBikes.addTo(map);
     if(!showFive){
       fiveBikes.removeLayer(map);
     }
